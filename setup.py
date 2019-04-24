@@ -24,7 +24,7 @@ class PrepareCommand(distutils.cmd.Command):
     def initialize_options(self):
         pass
 
-    def finalize_options(self):
+    def finalize_options(self)
         pass
 
     def run(self):
