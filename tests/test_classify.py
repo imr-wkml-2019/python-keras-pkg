@@ -21,5 +21,8 @@ class TestClasify(unittest.TestCase):
         # Test classification #2
         self.assertEqual(classify(self.localpath + "/samples/ankleboots.jpg"), 9)
 
+    def test_test(self):
+	return True
+
 if __name__ == '__main__':
     unittest.main()
